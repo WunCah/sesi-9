@@ -1,0 +1,5 @@
+const xhr = new XMLHttpRequest ()
+chr.onload = function () { console.log(this.responseText) }
+xhr.onload = function () { console.log(this.responseText) }
+xhr.open ("GET", "https://jsonplaceholder.typicode.com/users")
+xhr.send()
